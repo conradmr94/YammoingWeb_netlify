@@ -1,0 +1,219 @@
+YAMMOING PRIVACY POLICY
+
+Last Updated: February 2026
+Version: 1.0
+
+This Privacy Policy describes how Yammoing ("we," "us," or "our") collects, uses, and shares information when you use our mobile application ("App"). By using Yammoing, you agree to the collection and use of information in accordance with this policy.
+
+--------------------------------------------------------------------------------
+1. INFORMATION WE COLLECT
+--------------------------------------------------------------------------------
+
+1.1 Information You Provide
+
+When you create an account or use the App, we may collect:
+
+- Account information: Email address, display name, and user ID
+- Health profile: Dietary preferences, allergies, and health goals you choose to share
+- Fitness data: Workout logs and exercise tracking information
+- User content: Scan history, meal logs, shopping lists, and favorites
+- Photos and videos: Images you capture for barcode scanning, label analysis, and meal photo recognition (processed for analysis, not permanently stored on our servers)
+- Disclaimer acceptance records
+
+1.2 Information Collected Automatically
+
+When you use the App, we automatically collect:
+
+- Device information: Device type, operating system version, and app version
+- Usage analytics: Anonymous, aggregated data about feature usage patterns and product interaction
+- Diagnostics: Crash reports and other diagnostic data (performance metrics, error logs) to help us identify and fix bugs
+- Location data: Only if you enable location features; stored locally or with approximate precision based on your privacy settings
+
+1.3 Information from Third-Party Services
+
+If you sign in with Google or Apple, we receive basic profile information (name, email) from those services to create your account.
+
+--------------------------------------------------------------------------------
+2. HOW WE USE YOUR INFORMATION
+--------------------------------------------------------------------------------
+
+We use your information to:
+
+- Provide and improve the App's functionality
+- Personalize health scores based on your dietary profile
+- Sync your data across devices when you create an account
+- Analyze anonymous, aggregated usage patterns to improve the App
+- Conduct academic research (anonymized data only - see Section 7)
+- Comply with legal obligations
+- Send important service-related communications
+
+--------------------------------------------------------------------------------
+3. HOW WE SHARE YOUR INFORMATION
+--------------------------------------------------------------------------------
+
+3.1 We DO NOT:
+
+- Sell your personal information to third parties
+- Share your personally identifiable information with advertisers
+- Share your health profile or dietary preferences with third parties for marketing purposes
+
+3.2 We MAY share information with:
+
+- Service providers: Companies that help us operate the App (cloud hosting via Firebase/Google Cloud, analytics)
+- AI providers: When you use photo recognition features, images are processed by Google Gemini
+- Academic researchers: Anonymized and aggregated data only (see Section 7)
+- Law enforcement: When required by law or to protect our legal rights
+- Business transfers: In connection with a merger, acquisition, or sale of assets
+
+--------------------------------------------------------------------------------
+4. DATA STORAGE AND SECURITY
+--------------------------------------------------------------------------------
+
+4.1 Where Your Data Is Stored
+
+- Local storage: Scan history, preferences, and cached data are stored on your device
+- Cloud storage: When signed in, your data syncs to Firebase (Google Cloud) servers located in the United States
+
+4.2 Data Security
+
+We implement industry-standard security measures including:
+
+- Encryption in transit (HTTPS/TLS)
+- Firebase Authentication for secure sign-in
+- Firebase App Check to prevent unauthorized access
+- Firestore security rules to protect user data
+
+4.3 Data Retention
+
+- Local data: Remains on your device until you delete it or uninstall the App
+- Account data: Retained until you delete your account or request deletion
+- Anonymized research data: May be retained indefinitely
+- Legal requirements: We retain data as required by law
+
+--------------------------------------------------------------------------------
+5. YOUR PRIVACY RIGHTS
+--------------------------------------------------------------------------------
+
+Depending on your location, you may have the right to:
+
+- Access: Request a copy of the personal data we hold about you
+- Correction: Request correction of inaccurate personal data
+- Deletion: Request deletion of your personal data ("right to be forgotten")
+- Portability: Export your data in a portable format
+- Opt-out: Opt out of certain data processing activities
+- Withdraw consent: Withdraw consent for data processing at any time
+
+To exercise these rights, contact us at: admin@summitwanderlust.com
+
+You can also delete your data directly in the App via Settings > Privacy & Data.
+
+--------------------------------------------------------------------------------
+6. CHILDREN'S PRIVACY
+--------------------------------------------------------------------------------
+
+Yammoing is intended for users 13 years of age and older. The App is rated 13+ in the App Store.
+
+We do not knowingly collect personal information from anyone under 13 without appropriate parental or guardian consent where required by law. If you believe we have collected information from a child under 13 inappropriately, please contact us immediately at admin@summitwanderlust.com so we can delete it.
+
+--------------------------------------------------------------------------------
+7. ACADEMIC RESEARCH
+--------------------------------------------------------------------------------
+
+We may use anonymized, aggregated data for academic and scientific research related to public health, nutrition science, and consumer food choices.
+
+7.1 Data Used for Research (anonymized and aggregated only):
+
+- Scan history and product popularity trends
+- Meal logging patterns and dietary trends
+- Fitness and workout trends
+- App usage patterns and feature engagement
+
+7.2 Data NEVER Used for Research:
+
+- Your name, email, or other personally identifiable information
+- Your individual health profile
+- Any data that could reasonably identify you
+
+Research is conducted in accordance with applicable data protection laws and ethical guidelines.
+
+--------------------------------------------------------------------------------
+8. INTERNATIONAL DATA TRANSFERS
+--------------------------------------------------------------------------------
+
+If you are located outside the United States, your data may be transferred to and processed in the United States, where data protection laws may differ from your jurisdiction. By using the App, you consent to such transfers.
+
+For users in the European Economic Area (EEA), we rely on Standard Contractual Clauses and other lawful transfer mechanisms.
+
+--------------------------------------------------------------------------------
+9. CALIFORNIA PRIVACY RIGHTS (CCPA)
+--------------------------------------------------------------------------------
+
+California residents have additional rights under the California Consumer Privacy Act (CCPA):
+
+- Right to know what personal information is collected
+- Right to know whether personal information is sold or disclosed
+- Right to opt out of the sale of personal information
+- Right to non-discrimination for exercising privacy rights
+
+We do not sell personal information as defined by the CCPA.
+
+To exercise your CCPA rights, contact us at: admin@summitwanderlust.com
+
+--------------------------------------------------------------------------------
+10. EUROPEAN PRIVACY RIGHTS (GDPR)
+--------------------------------------------------------------------------------
+
+If you are in the European Economic Area (EEA), you have rights under the General Data Protection Regulation (GDPR) as described in Section 5.
+
+Our legal basis for processing your data includes:
+
+- Your consent
+- Performance of a contract (providing the App)
+- Legitimate interests (improving our services, conducting research)
+- Compliance with legal obligations
+
+--------------------------------------------------------------------------------
+11. THIRD-PARTY SERVICES
+--------------------------------------------------------------------------------
+
+The App uses the following third-party services:
+
+- Firebase (Google): Authentication, cloud storage, analytics, and crash reporting
+- Google Gemini: AI-powered meal and label photo recognition
+- Apple Sign-In / Google Sign-In: Account authentication
+
+These services have their own privacy policies. We encourage you to review them:
+
+- Google Privacy Policy: https://policies.google.com/privacy
+- Apple Privacy Policy: https://www.apple.com/legal/privacy/
+
+--------------------------------------------------------------------------------
+12. CHANGES TO THIS PRIVACY POLICY
+--------------------------------------------------------------------------------
+
+We may update this Privacy Policy from time to time. We will notify you of material changes by:
+
+- Posting a notice in the App
+- Updating the "Last Updated" date at the top of this policy
+- Sending an email to registered users (for significant changes)
+
+Your continued use of the App after changes constitutes acceptance of the updated policy.
+
+--------------------------------------------------------------------------------
+13. CONTACT US
+--------------------------------------------------------------------------------
+
+If you have questions about this Privacy Policy or our privacy practices, contact us at:
+
+Email: admin@summitwanderlust.com
+
+For privacy-related requests (access, deletion, correction), please include:
+- Your account email address
+- A description of your request
+- Any relevant details to help us locate your data
+
+We will respond to privacy requests within 30 days.
+
+--------------------------------------------------------------------------------
+
+By using Yammoing, you acknowledge that you have read and understood this Privacy Policy.
