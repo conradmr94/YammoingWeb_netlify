@@ -3669,6 +3669,55 @@ ul, ol {
 }
 
 /* ========================================
+   Support Section
+   ======================================== */
+.support {
+    padding: 56px 0;
+    background: var(--mist);
+    text-align: center;
+}
+
+.support-content h2 {
+    font-size: clamp(26px, 2.5vw, 36px);
+    margin-bottom: 12px;
+    color: var(--ink);
+}
+
+.support-content p {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: var(--ink);
+    opacity: 0.9;
+}
+
+.support-contact {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.support-contact a {
+    color: var(--forest);
+    text-decoration: none;
+}
+
+.support-contact a:hover {
+    text-decoration: underline;
+}
+
+.support-note {
+    font-size: 0.875rem;
+    opacity: 0.8;
+    margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+    .support {
+        padding: 44px 0;
+    }
+}
+
+/* ========================================
    Footer
    ======================================== */
 .footer {
