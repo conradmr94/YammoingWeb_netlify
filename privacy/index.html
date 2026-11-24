@@ -34,13 +34,13 @@
   <header>
     <div>
       <h1>Privacy Policy</h1>
-      <p>Yammoing · Version 2026-11-10 · Effective date: November 10, 2026</p>
+      <p>Yammoing · Version 2026-11-24 · Effective date: November 24, 2026</p>
     </div>
   </header>
   <main>
 
     <section class="summary">
-      <strong>Plain-language summary:</strong> Yammoing uses your information to run and personalize the app, sync the data you save, and process the analyses you ask for. Some features send data to outside services, listed below. AI features send data to a third-party AI provider; what health information goes with an AI request is controlled by your AI data-sharing settings. We do not use analytics or advertising SDKs, we do not sell personal information, and we do not use it for cross-app tracking.
+      <strong>Plain-language summary:</strong> Yammoing uses your information to run and personalize the app, sync the data you save, and process the analyses you ask for. Some features send data to outside services, listed below. AI features send data to third-party AI providers; what health information goes with an AI request is controlled by your AI data-sharing settings. If you link My Little Chef, the two apps share the items described in <a href="#linked">section 4</a>. We do not use analytics or advertising SDKs, we do not sell personal information, and we do not use it for cross-app tracking.
     </section>
 
     <nav class="toc" aria-label="Contents">
@@ -67,7 +67,9 @@
       <h3>Apple Health (HealthKit)</h3>
       <p>With your permission, the app reads these Health data types: nutrition totals (energy, protein, carbohydrates and fat), steps, active energy, exercise and stand time, workouts, height, weight, date of birth and biological sex. It writes the nutrition entries (energy, protein, carbohydrates, fat, fiber, sugar and sodium) and workouts you log. Health data is read on your device when a feature needs it and is not saved to your Yammoing account or our servers. Apple Health values are included in AI requests only if you turn on the Apple Health category in AI data-sharing settings (see <a href="#ai">section 3</a>). We do not use HealthKit data for advertising, sell it, or use it for research.</p>
       <h3>Photos and other content</h3>
-      <p>We process photos you take or choose for barcode and label scanning, meal recognition, product contributions and profile images, along with shopping lists, favorites, fridge items, notes, searches and AI chat messages.</p>
+      <p>We process photos you take or choose for barcode and label scanning, meal recognition, product contributions and profile images, along with shopping lists, favorites, fridge, freezer and pantry items, notes, searches and AI chat messages.</p>
+      <h3>Linked apps</h3>
+      <p>If you link My Little Chef, we store the link (the IDs of both accounts, a shared ID for the pair and when you linked) and the shopping items and cooked meals it sends you. See <a href="#linked">section 4</a>.</p>
       <h3>Location</h3>
       <p>Only while the app is open and only if you allow it, the app uses your location to find nearby stores and restaurants, look up air quality, and, if the "Attach Location to Scans" setting is on, save a location with scans and meals. iOS may give the app precise location. Unless you turn on "Store Exact Location", saved coordinates are rounded to about 11 metres; a place name, city and region may be saved with them. You control location access in iOS Settings and in the app's Privacy &amp; Data settings.</p>
       <h3>Device and technical data</h3>
@@ -83,6 +85,7 @@
         <li>Personalize nutrition scores, recommendations, meal planning and fitness features.</li>
         <li>Process the barcode, label, meal-photo, place, air-quality, food-database and AI requests you make.</li>
         <li>Synchronize your account data and selected photos across your devices.</li>
+        <li>Share items with My Little Chef and receive items from it, only if you link it.</li>
         <li>Manage subscriptions, enforce usage allowances, and prevent fraud or abuse.</li>
         <li>Research, only if you opt in (see <a href="#research">section 6</a>).</li>
         <li>Meet legal obligations and enforce our terms.</li>
@@ -91,7 +94,7 @@
 
     <section id="ai">
       <h2>3. AI features</h2>
-      <p>Yammoing's AI features use a third-party AI provider, called only from our servers; the app never contacts the provider directly. The provider in use is named on the AI data-sharing screen in the app, which asks you again if it changes. Nothing is sent to the provider unless you use one of these features:</p>
+      <p>Yammoing's AI features are provided by <strong>OpenRouter</strong>, which passes each request to an AI model from <strong>Anthropic</strong> or <strong>OpenAI</strong>. They are called only from our servers; the app never contacts them directly. The AI data-sharing screen in the app names the companies in use and asks you again if they change. Nothing is sent to them unless you use one of these features:</p>
       <ul>
         <li><strong>Meal photo recognition</strong> sends the meal photo. Recognition is not done on your device.</li>
         <li><strong>Label analysis</strong> sends the photo of the label.</li>
@@ -112,9 +115,9 @@
         <li>menstrual cycle information (also withheld whenever Privacy Mode is on in female-health settings);</li>
         <li>Apple Health data: steps, active energy, nutrition totals and weight.</li>
       </ul>
-      <p>You can change these settings or withdraw at any time in Settings &gt; AI Data Sharing; changes apply to future requests. Our servers also drop any category you have not allowed before a request reaches the AI provider.</p>
-      <h3>How the AI provider handles requests</h3>
-      <p>The provider processes each request only to return a response. We use providers that do not use your requests to train their models and do not keep them after responding, except briefly where required to prevent abuse or meet legal obligations.</p>
+      <p>You can change these settings or withdraw at any time in Settings &gt; AI Data Sharing; changes apply to future requests. Our servers also drop any category you have not allowed before a request reaches the AI providers.</p>
+      <h3>How the AI providers handle requests</h3>
+      <p>We allow only providers with zero data retention: they process each request to return a response, do not keep your data after answering and do not use it to train AI models. OpenRouter does not store your requests or answers.</p>
       <p>AI output can be wrong. It is not medical advice.</p>
     </section>
 
@@ -132,12 +135,20 @@
       <h3>Called through our Cloud Functions</h3>
       <p>These requests go to our servers first, which add our API key and pass on only the fields listed. The provider does not receive your name, email or user ID from us.</p>
       <ul>
-        <li><strong>AI provider</strong>: see <a href="#ai">section 3</a>.</li>
-        <li><strong>USDA FoodData Central</strong>: food search text or a food ID.</li>
+        <li><strong>AI providers</strong> (OpenRouter, Anthropic and OpenAI): see <a href="#ai">section 3</a>.</li>
+        <li><strong>USDA FoodData Central</strong>: food search text or a food ID. We keep USDA's answers on our servers and reuse them for everyone, without your user ID and without the text you searched (only a one-way code made from it).</li>
         <li><strong>Foursquare Places</strong>: your coordinates, a search radius, an optional search term and place categories, to find nearby stores and restaurants.</li>
         <li><strong>Google Air Quality</strong>: coordinates for your area (from your ZIP code or location) to look up air quality.</li>
         <li><strong>Apple App Store</strong>: purchase receipts and transaction IDs, to verify subscriptions.</li>
       </ul>
+      <h3 id="linked">My Little Chef, if you link it</h3>
+      <p>My Little Chef is another app from Summit Wanderlust, LLC. Nothing is shared with it unless you approve a link in Yammoing. While the apps are linked:</p>
+      <ul>
+        <li><strong>My Little Chef can see</strong> your shopping list (each item's ID, name, quantity and note) and the items in your fridge, freezer and pantry (ID, name, amount, where it is kept, how and when it was added, and its picture link).</li>
+        <li><strong>My Little Chef can send you</strong> recipe ingredients, which are added to your shopping list, and meals you cook (recipe name, servings and ingredients), which are logged only after you review them.</li>
+        <li><strong>The two apps exchange</strong> the account IDs needed to keep the link.</li>
+      </ul>
+      <p>We do not send My Little Chef your name, email, profile, health information, meals, scans or chat messages. You can unlink at any time in Settings &gt; Linked apps. Unlinking stops all sharing between the apps; it does not remove items already added to your lists, or anything My Little Chef has already received.</p>
       <h3>Infrastructure</h3>
       <p><strong>Google Firebase and Google Cloud</strong> host your account, database, photos, Cloud Functions and logs. <strong>Google Sign-In</strong> is used if you choose to sign in with Google.</p>
       <h3>Links you open</h3>
@@ -149,9 +160,10 @@
       <h2>5. Storage and retention</h2>
       <ul>
         <li><strong>On your device:</strong> preferences, caches and locally saved history stay until you delete them in the app, clear the cache, or uninstall the app.</li>
-        <li><strong>Account data</strong> (profile, health information, scans, meals, workouts, favorites, shopping lists, fridge, cycle data, contributions and synced photos): kept while your account exists. Deleting your account in the app deletes this data, the photos stored under your account, and your sign-in record. We do not keep backups of the database, so deleted data cannot be restored (the database keeps prior versions of changed data for at most one hour).</li>
-        <li><strong>Photos sent only for analysis</strong> (label and meal-recognition photos you do not save): not stored by us after the response. Google's handling is described in <a href="#ai">section 3</a>.</li>
-        <li><strong>AI chat history:</strong> stored only on your device (your last 20 conversations and a short summary used to keep answers consistent), not on our servers. It is removed when you sign out or delete your account. Each request sends your last few messages to the AI provider as described in section 3.</li>
+        <li><strong>Account data</strong> (profile, health information, scans, meals, workouts, favorites, shopping lists, fridge, freezer and pantry items, cycle data, contributions and synced photos): kept while your account exists. Deleting your account in the app deletes this data, the photos stored under your account, and your sign-in record. We do not keep backups of the database, so deleted data cannot be restored (the database keeps prior versions of changed data for at most one hour).</li>
+        <li><strong>Linked apps:</strong> the link is deleted when you unlink or delete your account. Shopping items from My Little Chef wait on our servers until the app adds them to your list, and cooked meals until you review or remove them; any still waiting are deleted with your account. The shared ID is kept after unlinking and deleted with your account.</li>
+        <li><strong>Photos sent only for analysis</strong> (label and meal-recognition photos you do not save): not stored by us after the response. The AI providers' handling is described in <a href="#ai">section 3</a>.</li>
+        <li><strong>AI chat history:</strong> stored only on your device (your last 20 conversations and a short summary used to keep answers consistent), not on our servers. It is removed when you sign out or delete your account. Each request sends your last few messages to the AI providers as described in section 3.</li>
         <li><strong>Cloud Functions logs</strong> (user ID, tier, request sizes, purchase IDs; never the content of your requests or AI answers): kept for 7 days, then deleted automatically.</li>
         <li><strong>Purchase and transaction records:</strong> Apple processes all payments; we never receive your payment details. We keep your App Store transaction IDs and subscription status with your account to provide access, and delete them when you delete your account. Apple keeps its own payment records under Apple's privacy policy.</li>
         <li><strong>Usage counters</strong> for monthly AI and API allowances: kept with your account, one record per month, and deleted when you delete your account.</li>
@@ -167,7 +179,7 @@
 
     <section id="choices">
       <h2>7. Your choices and rights</h2>
-      <p>You can manage Apple Health, Photos, Camera, Notifications and Location permissions in iOS Settings. In the app you can change AI data-sharing settings, research opt-in and location settings, correct your profile, delete history, and permanently delete your account and associated server data. Depending on where you live, you may also have rights to access, correct, delete or export personal information and to object to or restrict certain processing.</p>
+      <p>You can manage Apple Health, Photos, Camera, Notifications and Location permissions in iOS Settings. In the app you can change AI data-sharing settings, research opt-in and location settings, correct your profile, unlink My Little Chef, delete history, and permanently delete your account and associated server data. Depending on where you live, you may also have rights to access, correct, delete or export personal information and to object to or restrict certain processing.</p>
       <p>California residents may exercise applicable CCPA rights, including the right to know, delete, correct, and receive equal service. We do not sell or share personal information as those terms are used for cross-context behavioral advertising. EEA and UK users may exercise applicable GDPR rights; our legal bases include consent, contract performance, legitimate interests, and legal compliance.</p>
     </section>
 
